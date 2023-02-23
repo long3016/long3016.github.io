@@ -1,0 +1,12 @@
+thead{
+    background-color:lightblue;
+  }
+  th:hover{
+    color:blue;
+  }
+  td{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .rheader{
+    color: rgb(82, 103, 110);
+  }
