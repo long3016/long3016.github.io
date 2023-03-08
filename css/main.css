@@ -30,7 +30,7 @@ caption{
 li > ol{
   font-size: 12px;
 }
-img{
+body > img{
   border: 4px solid white;
   border-radius: 15px 50px 30px 5px;
 }
