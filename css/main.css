@@ -1,12 +1,12 @@
 body{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   color: darkred;
   line-height: 17px;
   padding: 3px;
   background-color: rgb(236, 224, 213);
 }
 h1{
-    border-bottom:2px solid darkred;
+    border-bottom: 2px solid darkred;
 }
 table{
     border: 3px dashed darkred;
@@ -19,6 +19,5 @@ td{
     padding: 5px;
 }
 span{
-    border-color: darkred;
     border-bottom: 2px solid darkred;
 }
