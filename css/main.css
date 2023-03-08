@@ -8,7 +8,10 @@ body{
 p{
   font-size: 14px;
 }
-div > h1, div > h1 > strong{
+div > h1{
+    border-bottom: 2px solid darkred;
+}
+div > h1 > strong{
     border-bottom: 2px solid darkred;
 }
 table{
