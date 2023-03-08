@@ -27,6 +27,6 @@ span{
 caption{
   font-size: 22px;
 }
-ol{
+li > ol{
   font-size: 12px;
 }
