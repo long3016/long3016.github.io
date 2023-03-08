@@ -5,6 +5,9 @@ body{
   padding: 3px;
   background-color: rgb(236, 224, 213);
 }
+p{
+  font-size: 14px;
+}
 div > h1 > strong{
     border-bottom: 2px solid darkred;
 }
