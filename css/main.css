@@ -31,5 +31,6 @@ li > ol{
   font-size: 12px;
 }
 img{
-  border-radius: 8px solid transparent;
+  border: 4px solid white;
+  border-radius: 15px 50px 30px 5px;
 }
