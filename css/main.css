@@ -30,3 +30,6 @@ caption{
 li > ol{
   font-size: 12px;
 }
+img{
+  border: 8px solid transparent;
+}
