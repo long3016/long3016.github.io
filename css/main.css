@@ -21,3 +21,6 @@ td{
 span{
     border-bottom: 2px solid darkred;
 }
+caption{
+  font-size: 22px;
+}
