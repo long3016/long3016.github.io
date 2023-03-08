@@ -5,7 +5,7 @@ body{
   padding: 3px;
   background-color: rgb(236, 224, 213);
 }
-h1{
+div > h1{
     border-bottom: 2px solid darkred;
 }
 table{
