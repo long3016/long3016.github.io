@@ -1,0 +1,26 @@
+@font-face 
+{
+  font-family: UNCTitle;
+  src: url('fonts/Aleo.ttf');
+}
+@font-face 
+{
+  font-family: UNCText;
+  src: url('fonts/OpenSans.ttf');
+}
+:root
+{
+  --UNC-Blue:#013c65;
+  --UNC-Gold: #f6b000;
+  --UNC-Gray: #60697a;
+}
+*
+{
+    font-family: UNCText;
+    color: var(--UNC-Gray);
+}
+h1, h2, h3, h4, h5, h6
+{
+    font-family: UNCTitle;
+    color: var(--UNC-Blue);
+}
