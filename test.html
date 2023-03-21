@@ -57,13 +57,16 @@
             </tr>
         </tbody>
       </table><br>
-      <form action="https://validator.w3.org/nu/" method="GET">
-        <label for="docurl" style="font-size: 18px;">Page to Validate:</label>
-        <input type="text" name="doc" id="docurl" placeholder="Please enter a valid URL">
-        <label for="show" style="font-size: 16px;">Show Source?</label>
-        <input type="checkbox" name="showsource" id="show">
-        <input type="submit" value="GO">
-      </form> 
+      <fieldset style="border: 2px dashed darkred;">
+        <legend style="font-size: 20px;"><strong>Custom Site Validator</strong></legend>
+        <form action="https://validator.w3.org/nu/" method="GET">
+          <label for="docurl" style="font-size: 18px;">Page to Validate:</label>
+          <input type="text" name="doc" id="docurl" placeholder="Please enter a valid URL">
+          <label for="show" style="font-size: 16px;">Show Source?</label>
+          <input type="checkbox" name="showsource" id="show">
+          <input type="submit" value="GO">
+        </form>
+    </fieldset>
     </body>
 </html>
 
