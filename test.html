@@ -10,9 +10,9 @@
       <table style="width:75%">
         <thead>
           <tr>
-            <th style="border: 2px solid rgb(131, 167, 179)" class="cheader">Page Name</th>
-            <th style="border: 2px solid rgb(131, 167, 179)" class="cheader">URL</th>
-            <th style="border: 2px solid rgb(131, 167, 179)" class="cheader">Validation</th>
+            <th>Page Name</th>
+            <th>URL</th>
+            <th>Validation</th>
           </tr>
         </thead>
         <tbody>
@@ -56,7 +56,12 @@
               <td><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Flong3016.github.io%2Ftest.html">Validate</a></td>
             </tr>
         </tbody>
-      </table>
+      </table><br>
+      <form action="https://validator.w3.org/nu/" method="GET">
+        <label for="docurl" style="font-size: 18px;">Page to Validate:</label>
+        <input type="text" name="doc" id="docurl" placeholder="Please enter a valid URL">
+        <input type="submit" value="GO">
+      </form> 
     </body>
 </html>
 
