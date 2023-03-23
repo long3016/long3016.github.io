@@ -11,17 +11,20 @@
         
         <form action="https://www.google.com/search" method="GET" target="_blank">
             <fieldset style="border: 2px dashed darkred;">
-              <label for="searchbox" style="font-size: 16px;">Super Search String:</label>
-              <input type="text" name="q" id="searchbox" placeholder="Enter your search query"><br><br>
-                <select name="as_sitesearch">
-                    <option value="unco.edu">University of Northern Colorado</option>
-                    <option value="instructure.com">Canvas</option>
-                    <option value="w3schools.com">W3Schools</option>
-                    <option value="html.spec.whatwg.org">HTML Living Standard</option>
-                </select>
-    
-              <label for="random">Random Site Based on Feeling</label>
-              <input type="text" name="q" id="random" placeholder="How are you today?">
+                <div>
+                    <label for="searchbox" style="font-size: 16px;">Super Search String:</label>
+                    <input type="text" name="q" id="searchbox" placeholder="Enter your search query"><br><br>
+                </div>
+                <div>
+                    <label for="site" style="font-size: 16px;">Search in Specific Site
+                    <select name="as_sitesearch" id="site">
+                        <option value="unco.edu">University of Northern Colorado</option>
+                        <option value="instructure.com">Canvas</option>
+                        <option value="w3schools.com">W3Schools</option>
+                        <option value="html.spec.whatwg.org">HTML Living Standard</option>
+                        <option>None</option>
+                    </select>
+                </div>
             </fieldset>
         </form>
     </body>
