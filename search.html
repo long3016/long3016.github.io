@@ -6,15 +6,20 @@
         <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
-        <div><h1>Search</h1></div>
-        <p>Paragraph text</p>
+        <div><h1>Google Super Search!</h1></div>
+        <p>Everyone loves Google, but why open a new tab/website when you could stay on the same page?</p>
         <fieldset style="border: 2px dashed darkred;">
-            <legend style="font-size: 20px;"><strong>Title</strong></legend>
-            <form action="https://validator.w3.org/nu/" method="GET">
-              <label for="docurl" style="font-size: 18px;">Page to Validate:</label>
-              <input type="text" name="doc" id="docurl" placeholder="Please enter a valid URL">
-              <label for="show" style="font-size: 16px;">Show Source?</label>
-              <input type="checkbox" name="showsource" id="show">
+            <form action="https://www.google.com/search" method="GET">
+              <label for="query" style="font-size: 18px;">Super Search String:</label>
+              <input type="text" name="ask" id="query" placeholder="Enter your search query"><br><br>
+              
+              <label for="fun" style="font-size: 14px;">I'm feeling...</label>
+              <input type="checkbox" name="lucky" id="lucky">
+              <select id="fun" name="randomsite">
+                <option value="lucky">Lucky</option>
+                <option value="trendy">Trendy</option>
+                <option value="hungry">Hungry</option>
+                <option value="stellar">Stellar</option></options>
               <input type="submit" value="GO">
             </form>
         </fieldset>
