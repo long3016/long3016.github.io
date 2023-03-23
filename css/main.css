@@ -34,7 +34,7 @@ body > img{
   border: 4px solid white;
   border-radius: 15px 50px 30px 5px;
 }
-input {
+#searchbox {
   width: 300px;
 }
 input, select, options {

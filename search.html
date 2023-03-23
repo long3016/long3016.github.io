@@ -10,7 +10,7 @@
         <p>Everyone loves Google, but why open a new tab/website when you could stay on the same page?</p>
         
         <form action="https://www.google.com/search" method="GET" target="_blank">
-            <fieldset style="border: 2px dashed darkred;">
+            <fieldset style="border: 2px dashed darkred;" id="toplevelset">
                 <div>
                     <label for="searchbox" style="font-size: 16px;">Super Search String:</label>
                     <input type="text" name="q" id="searchbox" placeholder="Enter your search query"><br><br>
@@ -22,12 +22,22 @@
                         <option value="instructure.com">Canvas</option>
                         <option value="w3schools.com">W3Schools</option>
                         <option value="html.spec.whatwg.org">HTML Living Standard</option>
-                        <option>None</option>
+                        <option value="">--All Sites--</option>
                     </select>
                 </div>
-                    <input type="checkbox" name="newwindow" value="1" id="checkwindow">
-                    <label for="checkwindow">Open Links in New Window?</label>
-                </div>
+
+                <fieldset style="border: none;" id="toplevelset">
+                    <div>
+                        <label for="checkwindow">Open Links in New Window?</label>
+                        <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+                    </div>
+                    <div>
+                        <label for="random">Random Search</label>
+                        <select name="q" id="random">
+                            <option value="I%27m+Feeling+Curious">I'm Feeling Curious</option>
+                        </select>
+                    </div>
+                </fieldset>
             </fieldset>
         </form>
     </body>
