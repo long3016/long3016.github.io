@@ -20,11 +20,11 @@
                 <div>
                     <label for="site" style="font-size: 16px;">Search in Specific Site
                     <select name="as_sitesearch" id="site">
+                        <option value="">--All Sites--</option>
                         <option value="unco.edu">University of Northern Colorado</option>
                         <option value="instructure.com">Canvas</option>
                         <option value="w3schools.com">W3Schools</option>
                         <option value="html.spec.whatwg.org">HTML Living Standard</option>
-                        <option value="">--All Sites--</option>
                     </select>
                 </div>
 
@@ -37,17 +37,17 @@
                         <label for="videos">Videos Only?</label>
                         <input type="checkbox" name="tbm" value="vid" id="videos">
                         <label for="pdf">PDF Results?</label>
-                        <input type="checkbox" name="as_filetype=extension" value="filetpye: pdf" id="pdf"><br><br>
+                        <input type="checkbox" name="as_filetype" value="pdf" id="pdf"><br><br>
                     </div>
                     <div>
                         <label for="random" style="font-size: 12px;">Random Search</label>
                         <p style="font-size: 10px;">Note: Don't enter anything in search bar or select certain site for this funtion to work!</p>
                         <select name="as_q" id="random">
+                            <option value="">--None--</option>
                             <option value="I'm Feeling Curious">I'm Feeling Curious</option>
                             <option value="I'm Feeling Hungry">I'm Feeling Hungry</option>
                             <option value="flip a coin">I'm Feeling Adventurous</option>
                             <option value="doodles">I'm Feeling Doodley</option>
-                            <option value="">--None--</option>
                         </select>
                     </div>
                     <div>
