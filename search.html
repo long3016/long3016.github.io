@@ -13,7 +13,9 @@
             <fieldset style="border: 2px dashed darkred;" id="toplevelset">
                 <div>
                     <label for="searchbox" style="font-size: 16px;">Super Search String:</label>
-                    <input type="text" name="q" id="searchbox" placeholder="Enter your search query"><br><br>
+                    <input type="text" name="q" id="searchbox" placeholder="Enter your search query">
+                    <label for="exclude" style="font-size:16px;">Anything you want to exclude from search?</label>
+                    <input type="text" name="as_eq" id="exclude" placeholder="Query you want to exclude"><br><br>
                 </div>
                 <div>
                     <label for="site" style="font-size: 16px;">Search in Specific Site
@@ -34,9 +36,12 @@
                         <input type="checkbox" name="tbm" value="isch" id="images">
                         <label for="videos">Videos Only?</label>
                         <input type="checkbox" name="tbm" value="vid" id="videos">
+                        <label for="pdf">PDF Results?</label>
+                        <input type="checkbox" name="as_filetype=extension" value="filetpye: pdf" id="pdf">
                     </div>
                     <div>
                         <label for="random">Random Search</label>
+                        <p style="font-size: 10pz;">Note: Don't enter anything in search bar or select certain site for this funtion to work!</p>
                         <select name="as_q" id="random">
                             <option value="I'm Feeling Curious">I'm Feeling Curious</option>
                             <option value="I'm Feeling Hungry">I'm Feeling Hungry</option>
