@@ -11,13 +11,13 @@ a{
     text-align: center;
 }
 p{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
 }
 h2{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 section{
-    border-radius: 100px;
+    border-radius: 50x;
     border: 2px solid #627174;
     padding: 20px;
     width: 200px;
