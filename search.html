@@ -14,33 +14,49 @@
                 <div>
                     <label for="searchbox" style="font-size: 16px;">Super Search String:</label>
                     <input type="text" name="q" id="searchbox" placeholder="Enter your search query"><br><br>
+                    <label for="exclude" style="font-size:16px;">Anything you want to exclude from search?</label>
+                    <input type="text" name="as_eq" id="exclude" placeholder="Query you want to exclude"><br><br>
                 </div>
                 <div>
-                    <label for="site" style="font-size: 16px;">Search in Specific Site
+                    <label for="site" style="font-size: 16px;">Search in Specific Site</label>
                     <select name="as_sitesearch" id="site">
+                        <option value="">--All Sites--</option>
                         <option value="unco.edu">University of Northern Colorado</option>
                         <option value="instructure.com">Canvas</option>
                         <option value="w3schools.com">W3Schools</option>
                         <option value="html.spec.whatwg.org">HTML Living Standard</option>
-                        <option value="">--All Sites--</option>
                     </select>
                 </div>
 
-                <fieldset style="border: none;" id="toplevelset">
+                <fieldset style="border: none;">
                     <div>
                         <label for="checkwindow">Open Links in New Window?</label>
                         <input type="checkbox" name="newwindow" value="1" id="checkwindow">
+                        <label for="images">Images Only?</label>
+                        <input type="checkbox" name="tbm" value="isch" id="images">
+                        <label for="videos">Videos Only?</label>
+                        <input type="checkbox" name="tbm" value="vid" id="videos">
+                        <label for="pdf">PDF Results?</label>
+                        <input type="checkbox" name="as_filetype" value="pdf" id="pdf">
+                        <label for="ppt">Power Point Results?</label>
+                        <input type="checkbox" name="as_filetype" value="ppt" id="ppt"><br><br>
                     </div>
                     <div>
-                        <label for="random">Random Search</label>
+                        <label for="random" style="font-size: 12px;">Random Search: Don't enter anything in search bar or select certain site for this funtion to work!</label>
                         <select name="as_q" id="random">
+                            <option value="">--None--</option>
                             <option value="I'm Feeling Curious">I'm Feeling Curious</option>
                             <option value="I'm Feeling Hungry">I'm Feeling Hungry</option>
                             <option value="flip a coin">I'm Feeling Adventurous</option>
+                            <option value="doodles">I'm Feeling Doodley</option>
                         </select>
+                    </div><br>
+                    <div>
+                        <input type="submit" value="Done">
                     </div>
                 </fieldset>
             </fieldset>
         </form>
+        <p><a href="index.html"><img src="https://cdn-icons-png.flaticon.com/512/6490/6490332.png" alt="Home Page" width="25"></a></p>
     </body>
 </html>
