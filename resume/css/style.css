@@ -27,7 +27,13 @@ section{
     width: auto;
     height: auto;
 }
-
+#contactinfo {
+    word-wrap: break-word;
+    width: 50px;
+}
+#socials {
+    word-wrap: break-word;
+}
 .float-container {
     display: flex;
     border: 3px solid #c5e2e9;
@@ -61,10 +67,4 @@ section{
     div{
         width: 80vm;
     }
-}
-#contactinfo {
-    word-wrap: break-word;
-}
-#socials {
-    word-wrap: break-word;
 }
