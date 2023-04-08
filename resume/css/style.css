@@ -1,5 +1,8 @@
 body{
     background-color: #c5e2e9;
+    grid-gap: 5px 50px;
+    grid-template-columns: auto;
+    grid-template-areas: "head" "contactinfo" "socials";
 }
 h1{
     text-align: center;
