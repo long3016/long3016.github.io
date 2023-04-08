@@ -29,6 +29,7 @@ section{
 }
 
 .float-container {
+    display: flex;
     border: 3px solid #c5e2e9;
     padding: 20px;
     }
@@ -38,16 +39,29 @@ section{
     padding: 20px;
     border: 2px solid #c5e2e9;
     margin-right: 20px;
+    flex: 1;
     }
 #education, #skills, #experience{
     width: auto;
     height: auto;
 }
 /* tablets */   
-@media all and (min-width: 600px)
+@media all and (min-width: 600px) {
+    div{
+        width: 80vm;
+    }
+}
 
 /* desktop */
-@media all and (min-width: 800px)
+@media all and (min-width: 800px) {
+    div{
+        width: 80vm;
+    }
+}
 
 /* mobile phones */
-@media all and (min-width: 300px)
+@media all and (min-width: 300px) {
+    div{
+        width: 80vm;
+    }
+}
