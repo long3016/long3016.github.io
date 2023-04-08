@@ -71,3 +71,7 @@ section{
 
 /* desktop */
 @media all and (min-width: 800px)
+/* mobile phones */
+[class*="col-"] {
+  width: 100%;
+}
