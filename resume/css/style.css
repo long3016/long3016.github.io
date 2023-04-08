@@ -1,13 +1,5 @@
 body{
     background-color: #c5e2e9;
-    display: grid;
-    justify-content: center;
-    grid-gap: 5px 50px;
-    grid-template-columns: auto;
-    grid-template-areas: "head" "contactinfo" "socials";
-}
-header {
-   grid-area: head;
 }
 
 h1{
@@ -54,15 +46,7 @@ section{
     height: auto;
 }
 /* tablets */   
-@media all and (min-width: 600px) {
-   body {
-      grid-template-columns: auto auto;
-      grid-template-areas: 
-         "head head" 
-         "members concerts" 
-         "members contact";
-   }
-}
+@media all and (min-width: 600px)
 
 /* desktop */
 @media all and (min-width: 800px)
