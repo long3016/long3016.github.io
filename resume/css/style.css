@@ -62,3 +62,9 @@ section{
         width: 80vm;
     }
 }
+#contactinfo {
+    word-wrap: break-word;
+}
+#socials {
+    word-wrap: break-word;
+}
