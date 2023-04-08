@@ -2,7 +2,7 @@ body{
     background-color: #c5e2e9;
     display: grid;
     justify-content: center;
-    grid-gap: auto;
+    grid-gap: 5px 50px;
     grid-template-columns: auto;
     grid-template-areas: "head" "contactinfo" "socials";
 }
@@ -50,3 +50,16 @@ section{
     border: 1px none;
     padding: 1rem 1rem;
 }
+/* tablets */   
+@media all and (min-width: 600px) {
+   body {
+      grid-template-columns: auto auto;
+      grid-template-areas: 
+         "head head" 
+         "members concerts" 
+         "members contact";
+   }
+}
+
+/* desktop */
+@media all and (min-width: 800px)
