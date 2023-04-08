@@ -32,6 +32,16 @@ section{
     width: 200px;
     height: 150px;
 }
+.float-container {
+    border: 3px none;
+    padding: 20px;
+    }
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px none;
+    }
 .division{
     display: inline-block;
     border: 1px none;
