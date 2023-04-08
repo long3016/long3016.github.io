@@ -33,14 +33,14 @@ section{
     height: 150px;
 }
 .float-container {
-    border: 3px none;
+    border: 3px solid #c5e2e9;
     padding: 20px;
     }
 .float-child {
     width: 50%;
     float: left;
     padding: 20px;
-    border: 2px none;
+    border: 2px solid #c5e2e9;
     }
 .division{
     display: inline-block;
