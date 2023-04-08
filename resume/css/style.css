@@ -32,8 +32,8 @@ section{
     border-radius: 50px;
     border: 2px solid #627174;
     padding: 30px;
-    width: 250px;
-    height: 150px;
+    width: auto;
+    height: auto;
 }
 
 .float-container {
