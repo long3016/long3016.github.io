@@ -31,6 +31,8 @@ section{
     padding: 20px;
     width: 200px;
     height: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .division{
     display: inline-block;
