@@ -38,8 +38,9 @@ section{
     float: left;
     padding: 20px;
     border: 2px solid #c5e2e9;
-    margin-right: 20px;
     flex: 1;
+    margin-right: 20px;
+    
     }
 #education, #skills, #experience{
     width: auto;
@@ -53,11 +54,7 @@ section{
 }
 
 /* desktop */
-@media all and (min-width: 800px) {
-    div{
-        width: 80vm;
-    }
-}
+@media all and (min-width: 800px)
 
 /* mobile phones */
 @media all and (min-width: 300px) {
