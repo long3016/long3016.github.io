@@ -4,6 +4,10 @@ body{
     grid-template-columns: auto;
     grid-template-areas: "head" "contactinfo" "socials";
 }
+header {
+   grid-area: head;
+}
+
 h1{
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,4 +34,10 @@ section{
     display: inline-block;
     border: 1px none;
     padding: 1rem 1rem;
+}
+#contactinfo {
+    grid-area: contactinfo;
+}
+#socials {
+    grid-area: socials;
 }
