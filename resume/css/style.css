@@ -53,11 +53,6 @@ section{
     width: auto;
     height: auto;
 }
-.division{
-    display: inline-block;
-    border: 1px none;
-    padding: 1rem 1rem;
-}
 /* tablets */   
 @media all and (min-width: 600px) {
    body {
@@ -71,7 +66,6 @@ section{
 
 /* desktop */
 @media all and (min-width: 800px)
+
 /* mobile phones */
-[class*="col-"] {
-  width: 100%;
-}
+@media all and (min-width: 300px)
