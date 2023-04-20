@@ -1,7 +1,14 @@
 body{
     color: #013c65;
     line-height: 17px;
-    text-align: center;
     padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
     font-family:fantasy;
+    letter-spacing: 2px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
 }
