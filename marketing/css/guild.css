@@ -14,12 +14,16 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
 }
 img {
-    border-radius: 15px;
+    border-radius: 25px;
+    border: 2px solid #013c65;
     padding: 20px;
-    width: 200px;
-    height: 150px;
-    align-self: center;
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 ul {
     list-style-type: none;
     margin: 0;
