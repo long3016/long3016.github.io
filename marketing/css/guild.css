@@ -14,4 +14,8 @@ h3 {
 }
 img {
     align-items: center;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
 }
