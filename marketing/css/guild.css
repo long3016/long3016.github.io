@@ -3,7 +3,7 @@ body{
     line-height: 17px;
     padding: 3px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: aliceblue;
+    background-color: rgb(200, 212, 223);
 }
 h1 {
     font-family:fantasy;
