@@ -59,7 +59,14 @@ ul {
 .image {
   flex-basis: 20%;
 }
-.text {
+.profile {
   font-size: 20px;
   padding-left: 20px;
+}
+.socials {
+  border: none;
+  width: 30px;
+}
+.about {
+  padding: 40px;
 }
