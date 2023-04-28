@@ -55,6 +55,11 @@ ul > li a:hover {
     background-color: #111;
   }
 
+ol {
+  display: inline-block;
+  text-align: left;
+}
+
 .photos {
   border: none;
   width: 150px;
