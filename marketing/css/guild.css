@@ -44,7 +44,7 @@ ul > li {
     float: left;
   }
   
-li a {
+ul > li a {
     display: block;
     color: white;
     text-align: center;
@@ -54,6 +54,7 @@ li a {
 ul > li a:hover {
     background-color: #111;
   }
+
 .photos {
   border: none;
   width: 150px;
