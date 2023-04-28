@@ -55,7 +55,7 @@ ul > li a:hover {
     background-color: #111;
   }
 
-ol {
+section > ol {
   display: inline-block;
   text-align: left;
 }
